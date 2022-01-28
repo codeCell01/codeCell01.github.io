@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robotics Course</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../../styles/style.css" />
+  </head>
+
+  <body>
+    <nav class="nav" id="nav">
+      <div class="container-fluid container-sm">
+        <div
+          class="row d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-sm-between"
+        >
+          <div class="logo col col-sm-2">
+            <a href="index.html">
+              <img src="../../../../assets/images/logo.jpg" class="logo" />
+            </a>
+          </div>
+
+          <div class="col col-sm-10">
+            <ul class="nav-bar" id="navbar">
+              <li class="nav-bar__item">
+                <a href="../../../index.html" class="nav-bar__item--link">
+                  হোম
+                </a>
+              </li>
+              <li class="nav-bar__item">
+                <a
+                  href="./../../1st-round/index.html"
+                  class="nav-bar__item--link"
+                >
+                  ১ম রাউন্ড
+                </a>
+              </li>
+              <li class="nav-bar__item">
+                <a href="../index.html" class="nav-bar__item--link active">
+                  ২য় রাউন্ড
+                </a>
+              </li>
+              <li class="nav-bar__item">
+                <a
+                  href="./../../3rd-round/index.html"
+                  class="nav-bar__item--link"
+                >
+                  ৩য় রাউন্ড
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <main class="syllabus">
+        <div class="row my-5 syll">
+          <div class="col text-center">
+            <h3 class="heading-tertiary text-center mb-3">সিলেবাস</h3>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-center syll">
+              <!-- List group -->
+              <div
+                class="list-group text-center syll-menu"
+                id="myList"
+                role="tablist"
+              >
+                <a
+                  class="list-group-item list-group-item-action active"
+                  data-toggle="list"
+                  href="#math"
+                  role="tab"
+                  >Math &raquo;</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  data-toggle="list"
+                  href="#programming"
+                  role="tab"
+                  >Basic Programming &raquo;</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  data-toggle="list"
+                  href="#arduino"
+                  role="tab"
+                  >Arduino Programming &raquo;</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  data-toggle="list"
+                  href="#fun"
+                  role="tab"
+                  >Fun with Programming &raquo;</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  data-toggle="list"
+                  href="#electronics"
+                  role="tab"
+                  >Electronics &raquo;</a
+                >
+              </div>
+
+              <!-- Tab panes -->
+              <div class="tab-content syll-body">
+                <div class="tab-pane active" id="math" role="tabpanel">
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">1. Algebra</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        Introduction to algebra
+                      </li>
+                      <li class="list-group-item">
+                        Basics of olympiad inequalities
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">2. Combinatorics</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Counting</li>
+                      <li class="list-group-item">
+                        Permutation and Combination
+                      </li>
+                      <li class="list-group-item">Probability</li>
+                    </ul>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">
+                        3. Geometry
+                      </h4>
+                    </div>
+                    <ul class="list-group list-group-flush list-style">
+                      <li class="list-group-item">
+                        Create a love for Geometry
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">
+                        4. Number Theory
+                      </h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        Elementary number theory
+                      </li>
+                      <li class="list-group-item">
+                        Number theory problem
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="programming" role="tabpanel">
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">1. C programming Syntax</h4>
+                    </div>
+                  </div>
+                  
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">2. Keywords</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">3. Variables</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">4. Data Types</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">5. Operator</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">6. Conditional Logic</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">if....else</li>
+                      <li class="list-group-item">Nested if....else</li>
+                    </ul>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">7. Loops</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">while loop</li>
+                      <li class="list-group-item">for loop</li>
+                    </ul>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">8. Array</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-5">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">9. Function</h4>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane" id="arduino" role="tabpanel">
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">1. Take input from sensor</h4>
+                    </div>
+                  </div>
+                  
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">2. Work with serial monitor</h4>
+                    </div>
+                  </div>
+                  
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">3. Data transmit and recieve using bluetooth module</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">4. Write code fro a android apps control arduino car</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">5. Write code for a avoid abstacles car</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">6. Code for line follower robot</h4>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">7. Home automation code</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane" id="fun" role="tabpanel">
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">1. hack google chrome dinosaur game</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">2. Send unlimited message using python</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">3. Tic-tac-toe game</h4>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="tab-pane" id="electronics" role="tabpanel">
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">1. Basic circuit</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">2. Various electronic component introduction</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">3. Logic gate</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">4. Practically circuit design</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">5. Discuss about various kind of power source</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">6. Apps controll car design</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">7. Avoid obstacles car circuit design</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">8. Line follower robot circuit design</h4>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title heading-sm text-left">9. Home automation system</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- footeer section start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4 class="h2">যোগাযোগঃ</h4>
+            <p>মোবাইলঃ +8801874280811</p>
+            <p>ইমেইলঃ devjewel01@stud.cou.ac.bd</p>
+            <a
+              href="../../../start-course/index.html"
+              class="text-danger display-4"
+              >কোর্সসমূহ &nearr;</a
+            >
+          </div>
+          <div class="col h2">শিখবো মোরা বিশ্ব জয়ের তরে</div>
+        </div>
+        <div class="row text-center mt-5">
+          <div class="col">
+            <p class="pargraph-1">
+              Copyright &copy;
+              <a
+                href="https://github.com/devjewel01/Robotics-and-Programming-Course"
+                >ICT department</a
+              >, Comilla University,2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <script src="../../../scripts/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
