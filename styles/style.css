@@ -346,3 +346,12 @@ Syllabus
     margin: 0 auto;
   }
 }
+
+
+/* ====================================
+Google Sheet
+==================================== */
+.google-sheet {
+  width: 100%;
+  min-height: 70vh;
+}
