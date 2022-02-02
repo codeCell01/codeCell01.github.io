@@ -355,3 +355,167 @@ Google Sheet
   width: 100%;
   min-height: 70vh;
 }
+
+
+.team {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+
+.team .team-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.team .team-img {
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.team .team-img img {
+  width: 100%;
+  transition: .3s;
+}
+
+.team .team-item:hover img {
+  transform: scale(1.1);
+}
+
+.team .team-text {
+  position: relative;
+  width: 100%;
+  padding: 35px 30px 30px 30px;
+  text-align: center;
+  background: #202C45;
+  border-radius: 0 0 5px 5px;
+  transition: .5s;
+}
+
+.team .team-item:hover .team-text {
+  background: #080101;
+}
+
+.team .team-text h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.team .team-text p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.team .team-social {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: -20px;
+  left: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.team .team-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 3px;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background: #202C45;
+  border-radius: 40px;
+  transition: .5s;
+}
+
+.team .team-item:hover .team-social a {
+  background: #080101;
+}
+
+.team .team-social a:hover {
+  color: #202C45;
+}
+
+
+
+
+
+/* ###################Organizers########################### */
+
+
+
+.team1 {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 250px;
+}
+
+.team1 .team1-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.team1 .team1-img {
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.team1 .team1-img img {
+  width: 100%;
+  transition: .3s;
+}
+
+.team1 .team1-item:hover img {
+  transform: scale(1.1);
+}
+
+.team1 .team1-text {
+  position: relative;
+  width: 100%;
+  padding: 35px 30px 30px 30px;
+  text-align: center;
+  background: #09246e;
+  border-radius: 0 0 5px 5px;
+  transition: .5s;
+}
+
+.team1 .team1-item:hover .team1-text {
+  background: #c7d1cb;
+}
+
+.team1 .team1-text h2 {
+  color: #a0661a;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.team1 .team1-text:hover h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.team1 .team1-text h4 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.team1 .team1-text:hover h4 {
+  margin: 0;
+  color: #a0661a;
+}
+
+
+
+
