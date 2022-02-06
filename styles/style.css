@@ -208,6 +208,7 @@ body {
 .card {
   max-width: 800px;
   color: var(--color-primary);
+  border-color: var(--color-active);
 }
 
 @media only screen and (max-width: 42.5em) {
